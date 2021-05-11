@@ -1,5 +1,6 @@
 # Basic API routes example
 
+<pre>
 Next.js works on two approaches whether you want static page generation , incremental static page generation or pure server side page generation or rendering.
 
 Static page generation - Will be implemented by getStaticProps() and getStaticPaths()(if dynamic paths need to be generated). getStaticProps will execute during build time get all your external API request data and generate static files
@@ -68,6 +69,7 @@ return {
 props: {}, // will be passed to the page component as props
 }
 }
+</pre>
 
 ## Deploy your own
 
